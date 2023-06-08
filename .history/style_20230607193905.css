@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root{
+
+    --fonte: 'Montserrat', sans-serif;
+    --cor-fundo: #302C42;
+    --cor-cartao: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);;
+
+}

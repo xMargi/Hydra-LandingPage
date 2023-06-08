@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root{
+
+    --fonte: 'Montserrat', sans-serif;
+    --cor-fundo: #302C42;
+    --cor-cartao: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    --cor-button: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    --cor-branca: #FFFFFF;
+    --cor-texto: #343045;
+    --cor-sombra: rgba(14, 14, 14, 0.32);
+
+}
+
+body{
+    box-sizing: border-box;
+    background: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cartoes{
+    margin:3rem 5.4375rem;
+    display: flex;
+    gap: 0.6875rem;
+    
+}
+
+.cartao{
+    background: var(--cor-cartao);
+    display: flex;
+    flex-direction: column; 
+    gap: 1.3125rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3.125rem;
+    border-radius: 40px;
+    height: 31.875rem;
+    width: 19.375rem;
+}
+
+.cartao__img{
+   
+    width: 80%;
+    
+
+}
